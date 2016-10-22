@@ -1,0 +1,63 @@
+.e-carousel {
+  position: relative;
+}
+
+.e-carousel .e-carousel-slides {
+  transition: margin-left 500ms linear;
+}
+
+.e-carousel .e-carousel-slides .e-carousel-slide {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+.e-carousel .e-carousel-nav .e-carousel-nav-arrow {
+  cursor: pointer;
+  display: block;
+  height: 100px;
+  margin-top: -50px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 50px;
+}
+
+.e-carousel .e-carousel-nav .e-carousel-nav-arrow svg {
+  fill: #fff;
+  height: 30px;
+  margin-top: 35px;
+}
+
+.e-carousel .e-carousel-nav .e-carousel-nav-prev {
+  left: 0;
+}
+
+.e-carousel .e-carousel-nav .e-carousel-nav-next {
+  right: 0;
+}
+
+.e-carousel .e-carousel-pagination {
+  bottom: 20px;
+  height: 10px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.e-carousel .e-carousel-pagination .e-carousel-page {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  height: 10px;
+  margin: 0 5px;
+  transition: background-color 200ms linear;
+  vertical-align: middle;
+  width: 10px;
+}
+
+.e-carousel .e-carousel-pagination .e-carousel-page-active {
+  background-color: rgba(0, 0, 0, 0.9);
+}
